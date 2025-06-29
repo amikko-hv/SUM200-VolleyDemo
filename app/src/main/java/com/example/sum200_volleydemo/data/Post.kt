@@ -1,4 +1,4 @@
-package com.example.sum200_volleydemo
+package com.example.sum200_volleydemo.data
 
 data class Post(
     val userId: Int,
