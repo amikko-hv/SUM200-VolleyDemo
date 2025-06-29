@@ -14,6 +14,10 @@ import androidx.compose.ui.unit.dp
 import com.example.sum200_volleydemo.data.Post
 import com.example.sum200_volleydemo.ui.theme.SUM200VolleyDemoTheme
 
+/**
+ * PostCard displays a card with a Post.
+ * @param post Post to display
+ */
 @Composable
 fun PostCard(post: Post) {
     Card(Modifier.padding(8.dp)) {
